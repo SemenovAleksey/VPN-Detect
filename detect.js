@@ -1,6 +1,6 @@
 const API_KEY = '...'
 const IP_URL = `https://api.ipgeolocation.io/getip`
-const LOC_URL = `https://api.ipgeolocation.io/ipgeo?apiKey=${API_KEY}&ip=`
+const LOC_URL = `https://api.ipgeolocation.io/ipgeo?apiKey=${463a6fb9bd5c4d449422e0b23b650747}&ip=`
 
 function getRealLocation() {
     return Intl.DateTimeFormat().resolvedOptions().timeZone
